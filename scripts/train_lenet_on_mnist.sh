@@ -10,10 +10,10 @@
 # ./slim/scripts/train_lenet_on_mnist.sh
 
 # Where the checkpoint and logs will be saved to.
-TRAIN_DIR=/tmp/lenet-model
+TRAIN_DIR=/old_home/nick/tmp/lenet-model
 
 # Where the dataset is saved to.
-DATASET_DIR=/tmp/mnist
+DATASET_DIR=/home/nick/datasets/mnist
 
 # Download the dataset
 python download_and_convert_data.py \
