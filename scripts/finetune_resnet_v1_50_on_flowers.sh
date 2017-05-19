@@ -10,13 +10,13 @@
 # ./slim/scripts/finetune_resnet_v1_50_on_flowers.sh
 
 # Where the pre-trained ResNetV1-50 checkpoint is saved to.
-PRETRAINED_CHECKPOINT_DIR=/home/nick/tmp/pretrained_checkpoints
+PRETRAINED_CHECKPOINT_DIR=/tmp/checkpoints
 
 # Where the training (fine-tuned) checkpoint and logs will be saved to.
-TRAIN_DIR=/home/nick/tmp/flowers-models/resnet_v1_50
+TRAIN_DIR=/old_home/nick/tmp/flowers-models/resnet_v1_50
 
 # Where the dataset is saved to.
-DATASET_DIR=/home/nick/datasets/flowers
+DATASET_DIR=/tmp/flowers
 
 # Download the pre-trained checkpoint.
 if [ ! -d "$PRETRAINED_CHECKPOINT_DIR" ]; then

@@ -10,7 +10,7 @@
 # ./scripts/train_cifar_net_on_mnist.sh
 
 # Where the checkpoint and logs will be saved to.
-TRAIN_DIR=/old_home/nick/tmp/cifarnet-model
+TRAIN_DIR=/home/nick/tmp/cifarnet-model
 
 # Where the dataset is saved to.
 DATASET_DIR=/home/nick/datasets/cifar10

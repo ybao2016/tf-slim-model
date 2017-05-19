@@ -32,9 +32,7 @@ import sys
 import tarfile
 
 import numpy as np
-#from six.moves import urllib
-import requests
-
+from six.moves import urllib
 import tensorflow as tf
 
 from datasets import dataset_utils
@@ -93,8 +91,7 @@ def _add_to_tfrecord(filename, tfrecord_writer, offset=0):
         sys.stdout.write('\r>> Reading file [%s] image %d/%d' % (
             filename, offset + j + 1, offset + num_images))
         sys.stdout.flush()
-        #image_orig = images[j].copy()
-        #image_squeeze =np.squeeze(image_orig)
+
         image = np.squeeze(images[j]).transpose((1, 2, 0))
         label = labels[j]
 
@@ -136,15 +133,9 @@ def _download_and_uncompress_dataset(dataset_dir):
           filename, float(count * block_size) / float(total_size) * 100.0))
       sys.stdout.flush()
     filepath, _ = urllib.request.urlretrieve(_DATA_URL, filepath, _progress)
-    #filepath, _ = requests.get(_DATA_URL, )
-
     print()
     statinfo = os.stat(filepath)
     print('Successfully downloaded', filename, statinfo.st_size, 'bytes.')
-  else:
-    print('file %s already exists' %filepath)
-  dataset_batch_filepath = os.path.join(dataset_dir, 'cifar-10-batches-py')
-  if not os.path.exists(dataset_batch_filepath):
     tarfile.open(filepath, 'r:gz').extractall(dataset_dir)
 
 
@@ -178,8 +169,7 @@ def run(dataset_dir):
     print('Dataset files already exist. Exiting without re-creating them.')
     return
 
-  #dataset_utils.download_and_uncompress_tarball(_DATA_URL, dataset_dir)
-  _download_and_uncompress_dataset(dataset_dir)
+  dataset_utils.download_and_uncompress_tarball(_DATA_URL, dataset_dir)
 
   # First, process the training data:
   with tf.python_io.TFRecordWriter(training_filename) as tfrecord_writer:
