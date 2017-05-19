@@ -7,10 +7,10 @@
 #
 # Usage:
 # cd slim
-# ./slim/scripts/finetune_inceptionv3_on_flowers.sh
+# ./scripts/finetune_inceptionv3_on_flowers.sh
 
 # Where the pre-trained InceptionV3 checkpoint is saved to.
-PRETRAINED_CHECKPOINT_DIR=/home/nick/datasets/pretrained_weights/checkpoints
+PRETRAINED_CHECKPOINT_DIR=/home/nick/datasets/pretrained_data/checkpoints
 
 # Where the training (fine-tuned) checkpoint and logs will be saved to.
 TRAIN_DIR=/old_home/nick/tmp/flowers-models/inception_v3
@@ -53,6 +53,7 @@ python train_image_classifier.py \
   --log_every_n_steps=100 \
   --optimizer=rmsprop \
   --weight_decay=0.00004
+
 
 # Run evaluation.
 python eval_image_classifier.py \
