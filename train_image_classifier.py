@@ -400,6 +400,9 @@ def main(_):
     ######################
     # Select the dataset #
     ######################
+    print(FLAGS)
+    print(FLAGS.dataset_name, FLAGS.dataset_split_name, FLAGS.dataset_dir)
+
     dataset = dataset_factory.get_dataset(
         FLAGS.dataset_name, FLAGS.dataset_split_name, FLAGS.dataset_dir)
 

@@ -1,0 +1,2041 @@
+nohup: ignoring input
+Dataset files already exist. Exiting without re-creating them.
+INFO:tensorflow:Summary name /clone_loss is illegal; using clone_loss instead.
+INFO:tensorflow:Ignoring --checkpoint_path because a checkpoint already exists in /old_home/nick/tmp/nick_family-models/inception_v3
+INFO:tensorflow:Restoring parameters from /old_home/nick/tmp/nick_family-models/inception_v3/model.ckpt-2000
+INFO:tensorflow:Starting Session.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/model.ckpt
+INFO:tensorflow:Starting Queues.
+INFO:tensorflow:global_step/sec: 0
+INFO:tensorflow:Stopping Training.
+INFO:tensorflow:Finished training! Saving model to disk.
+INFO:tensorflow:Recording summary at step 2001.
+<tensorflow.python.platform.flags._FlagValues object at 0x7fcbe2c4f0d0>
+nickf train /home/nick/datasets/nickf
+INFO:tensorflow:Scale of 0 disables regularizer.
+WARNING:tensorflow:From eval_image_classifier.py:157: streaming_recall_at_k (from tensorflow.contrib.metrics.python.ops.metric_ops) is deprecated and will be removed after 2016-11-08.
+Instructions for updating:
+Please use `streaming_sparse_recall_at_k`, and reshape labels from [batch_size] to [batch_size, 1].
+INFO:tensorflow:Evaluating /old_home/nick/tmp/nick_family-models/inception_v3/model.ckpt-2001
+INFO:tensorflow:Starting evaluation at 2017-08-24-12:36:44
+INFO:tensorflow:Restoring parameters from /old_home/nick/tmp/nick_family-models/inception_v3/model.ckpt-2001
+INFO:tensorflow:Evaluation [1/1]
+2017-08-24 20:36:57.057001: I tensorflow/core/kernels/logging_ops.cc:79] eval/Accuracy[0.94]
+2017-08-24 20:36:57.057001: I tensorflow/core/kernels/logging_ops.cc:79] eval/Recall_5[1]
+INFO:tensorflow:Finished evaluation at 2017-08-24-12:36:57
+INFO:tensorflow:Summary name /clone_loss is illegal; using clone_loss instead.
+INFO:tensorflow:Ignoring --checkpoint_path because a checkpoint already exists in /old_home/nick/tmp/nick_family-models/inception_v3/all
+INFO:tensorflow:Restoring parameters from /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt-6500
+INFO:tensorflow:Starting Session.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Starting Queues.
+INFO:tensorflow:global_step/sec: 0
+INFO:tensorflow:Recording summary at step 6500.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global_step/sec: 0.0504133
+INFO:tensorflow:Recording summary at step 6504.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global_step/sec: 0.0834089
+INFO:tensorflow:Recording summary at step 6508.
+INFO:tensorflow:global step 6510: loss = 0.4792 (12.27 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global_step/sec: 0.0666455
+INFO:tensorflow:Recording summary at step 6513.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global_step/sec: 0.0833969
+INFO:tensorflow:Recording summary at step 6517.
+INFO:tensorflow:global step 6520: loss = 0.3699 (12.87 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global_step/sec: 0.0664611
+INFO:tensorflow:Recording summary at step 6521.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global_step/sec: 0.0667805
+INFO:tensorflow:Recording summary at step 6526.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global_step/sec: 0.0666688
+INFO:tensorflow:global step 6530: loss = 0.4248 (14.00 sec/step)
+INFO:tensorflow:Recording summary at step 6530.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global_step/sec: 0.0834003
+INFO:tensorflow:Recording summary at step 6534.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global_step/sec: 0.066666
+INFO:tensorflow:Recording summary at step 6538.
+INFO:tensorflow:global step 6540: loss = 0.4258 (13.73 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6542.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6546.
+INFO:tensorflow:global step 6550: loss = 0.3077 (13.21 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6551.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6555.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6559.
+INFO:tensorflow:global step 6560: loss = 0.3759 (18.13 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6564.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6568.
+INFO:tensorflow:global step 6570: loss = 0.2798 (12.25 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6572.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6577.
+INFO:tensorflow:global step 6580: loss = 0.5043 (12.74 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6581.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6585.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6589.
+INFO:tensorflow:global step 6590: loss = 0.2860 (17.64 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6594.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6598.
+INFO:tensorflow:global step 6600: loss = 0.2714 (12.44 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6602.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6607.
+INFO:tensorflow:global step 6610: loss = 0.3413 (12.98 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6611.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6615.
+INFO:tensorflow:global step 6620: loss = 0.2579 (11.81 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6620.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6624.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6628.
+INFO:tensorflow:global step 6630: loss = 0.2774 (12.74 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6633.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6637.
+INFO:tensorflow:global step 6640: loss = 0.2868 (12.77 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6641.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6646.
+INFO:tensorflow:global step 6650: loss = 0.2876 (12.66 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6650.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6654.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6659.
+INFO:tensorflow:global step 6660: loss = 0.2750 (18.42 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6663.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6667.
+INFO:tensorflow:global step 6670: loss = 0.2883 (12.04 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6672.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6676.
+INFO:tensorflow:global step 6680: loss = 0.2401 (12.92 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6680.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6685.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6689.
+INFO:tensorflow:global step 6690: loss = 0.3240 (17.64 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6693.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6698.
+INFO:tensorflow:global step 6700: loss = 0.2976 (12.23 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6702.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6706.
+INFO:tensorflow:global step 6710: loss = 0.2451 (12.12 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6711.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6715.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6719.
+INFO:tensorflow:global step 6720: loss = 0.2835 (19.14 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6723.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6728.
+INFO:tensorflow:global step 6730: loss = 0.3621 (12.03 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6732.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6736.
+INFO:tensorflow:global step 6740: loss = 0.2903 (12.82 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6741.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6745.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6749.
+INFO:tensorflow:global step 6750: loss = 0.2548 (18.55 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6753.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6758.
+INFO:tensorflow:global step 6760: loss = 0.5215 (12.62 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6762.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6766.
+INFO:tensorflow:global step 6770: loss = 0.2602 (12.09 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6771.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6775.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6779.
+INFO:tensorflow:global step 6780: loss = 0.2446 (18.74 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6783.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6788.
+INFO:tensorflow:global step 6790: loss = 0.2979 (12.83 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6792.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6796.
+INFO:tensorflow:global step 6800: loss = 0.3078 (12.88 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6800.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6805.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6809.
+INFO:tensorflow:global step 6810: loss = 0.2475 (18.06 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6813.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6818.
+INFO:tensorflow:global step 6820: loss = 0.2629 (12.58 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6822.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6826.
+INFO:tensorflow:global step 6830: loss = 0.2560 (13.10 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6830.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6835.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6839.
+INFO:tensorflow:global step 6840: loss = 0.9330 (18.36 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6843.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6847.
+INFO:tensorflow:global step 6850: loss = 0.2669 (12.92 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6852.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6856.
+INFO:tensorflow:global step 6860: loss = 0.2518 (13.38 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6860.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6865.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6869.
+INFO:tensorflow:global step 6870: loss = 0.2545 (18.64 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6873.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6877.
+INFO:tensorflow:global step 6880: loss = 0.2838 (13.13 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6882.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6886.
+INFO:tensorflow:global step 6890: loss = 0.2870 (13.16 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6890.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6894.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6898.
+INFO:tensorflow:global step 6900: loss = 0.2661 (13.22 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6903.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6907.
+INFO:tensorflow:global step 6910: loss = 0.2692 (13.16 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6911.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6915.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6919.
+INFO:tensorflow:global step 6920: loss = 0.3402 (18.61 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6924.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6928.
+INFO:tensorflow:global step 6930: loss = 0.3884 (13.41 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6932.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6936.
+INFO:tensorflow:global step 6940: loss = 0.2492 (13.02 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6940.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6945.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6949.
+INFO:tensorflow:global step 6950: loss = 0.3280 (18.71 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6953.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6957.
+INFO:tensorflow:global step 6960: loss = 0.2537 (13.06 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6961.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6966.
+INFO:tensorflow:global step 6970: loss = 0.4734 (13.01 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6970.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6974.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6978.
+INFO:tensorflow:global step 6980: loss = 0.2673 (13.47 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6982.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6987.
+INFO:tensorflow:global step 6990: loss = 0.2861 (13.10 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6991.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6995.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 6999.
+INFO:tensorflow:global step 7000: loss = 0.2923 (18.74 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7003.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7008.
+INFO:tensorflow:global step 7010: loss = 0.2840 (12.64 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7012.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7016.
+INFO:tensorflow:global step 7020: loss = 0.2443 (13.35 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7020.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7024.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7029.
+INFO:tensorflow:global step 7030: loss = 0.4085 (18.14 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7033.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7037.
+INFO:tensorflow:global step 7040: loss = 0.3128 (13.10 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7041.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7046.
+INFO:tensorflow:global step 7050: loss = 0.2741 (13.02 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7050.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7054.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7058.
+INFO:tensorflow:global step 7060: loss = 0.2535 (13.68 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7062.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7067.
+INFO:tensorflow:global step 7070: loss = 0.2795 (12.44 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7071.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7076.
+INFO:tensorflow:global step 7080: loss = 0.2622 (12.49 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7080.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7084.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7089.
+INFO:tensorflow:global step 7090: loss = 0.2888 (18.30 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7093.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7098.
+INFO:tensorflow:global step 7100: loss = 0.3770 (11.90 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7102.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7106.
+INFO:tensorflow:global step 7110: loss = 0.2850 (12.82 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7111.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7115.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7119.
+INFO:tensorflow:global step 7120: loss = 0.2399 (17.77 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7124.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7128.
+INFO:tensorflow:global step 7130: loss = 0.2407 (13.18 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7132.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7137.
+INFO:tensorflow:global step 7140: loss = 0.2625 (12.33 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7141.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7146.
+INFO:tensorflow:global step 7150: loss = 0.2469 (12.71 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7150.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7154.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7159.
+INFO:tensorflow:global step 7160: loss = 0.2598 (14.93 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7163.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7167.
+INFO:tensorflow:global step 7170: loss = 0.3690 (11.90 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7172.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7176.
+INFO:tensorflow:global step 7180: loss = 0.3107 (12.75 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7180.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7185.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7189.
+INFO:tensorflow:global step 7190: loss = 0.2582 (17.57 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7194.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7198.
+INFO:tensorflow:global step 7200: loss = 0.2423 (12.86 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7202.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7207.
+INFO:tensorflow:global step 7210: loss = 0.2990 (12.83 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7211.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7215.
+INFO:tensorflow:global step 7220: loss = 0.3021 (11.90 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7220.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7224.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7228.
+INFO:tensorflow:global step 7230: loss = 0.3017 (11.86 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7233.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7237.
+INFO:tensorflow:global step 7240: loss = 0.3890 (12.75 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7241.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7246.
+INFO:tensorflow:global step 7250: loss = 0.3402 (13.07 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7250.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7255.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7259.
+INFO:tensorflow:global step 7260: loss = 0.2527 (17.88 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7263.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7268.
+INFO:tensorflow:global step 7270: loss = 0.5001 (12.88 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7272.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7276.
+INFO:tensorflow:global step 7280: loss = 0.2766 (13.05 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7280.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7285.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7289.
+INFO:tensorflow:global step 7290: loss = 0.2434 (18.62 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7293.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7297.
+INFO:tensorflow:global step 7300: loss = 0.2471 (13.22 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7301.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7306.
+INFO:tensorflow:global step 7310: loss = 0.2414 (11.81 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7310.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7315.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7319.
+INFO:tensorflow:global step 7320: loss = 0.3019 (18.44 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7323.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7328.
+INFO:tensorflow:global step 7330: loss = 0.2473 (12.85 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7332.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7336.
+INFO:tensorflow:global step 7340: loss = 0.2702 (12.98 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7340.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7345.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7349.
+INFO:tensorflow:global step 7350: loss = 0.2560 (18.53 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7353.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7358.
+INFO:tensorflow:global step 7360: loss = 0.2800 (13.12 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7362.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7366.
+INFO:tensorflow:global step 7370: loss = 0.2581 (13.06 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7370.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7374.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7378.
+INFO:tensorflow:global step 7380: loss = 0.3428 (13.50 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7383.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7387.
+INFO:tensorflow:global step 7390: loss = 0.2517 (12.42 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7391.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7395.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 7400: loss = 0.2444 (16.89 sec/step)
+INFO:tensorflow:Recording summary at step 7400.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7404.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7408.
+INFO:tensorflow:global step 7410: loss = 0.3019 (13.16 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7412.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7416.
+INFO:tensorflow:global step 7420: loss = 0.2426 (12.69 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7420.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7425.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7429.
+INFO:tensorflow:global step 7430: loss = 0.2434 (18.55 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7433.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7437.
+INFO:tensorflow:global step 7440: loss = 0.2734 (12.50 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7442.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7446.
+INFO:tensorflow:global step 7450: loss = 0.2840 (13.11 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7450.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7454.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7458.
+INFO:tensorflow:global step 7460: loss = 0.2484 (13.00 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7463.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7467.
+INFO:tensorflow:global step 7470: loss = 0.2485 (13.28 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7471.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7475.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7479.
+INFO:tensorflow:global step 7480: loss = 0.2516 (18.98 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7484.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7488.
+INFO:tensorflow:global step 7490: loss = 0.2670 (12.67 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7492.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7496.
+INFO:tensorflow:global step 7500: loss = 0.2432 (12.36 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7500.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7505.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7509.
+INFO:tensorflow:global step 7510: loss = 0.2960 (18.65 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7513.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7517.
+INFO:tensorflow:global step 7520: loss = 0.2569 (12.89 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7522.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7526.
+INFO:tensorflow:global step 7530: loss = 0.2787 (12.81 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7530.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7535.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7539.
+INFO:tensorflow:global step 7540: loss = 0.3580 (18.26 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7543.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7548.
+INFO:tensorflow:global step 7550: loss = 0.3841 (11.88 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7552.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7557.
+INFO:tensorflow:global step 7560: loss = 0.2586 (12.25 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7561.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7565.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 7570: loss = 0.3237 (13.67 sec/step)
+INFO:tensorflow:Recording summary at step 7570.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7574.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7578.
+INFO:tensorflow:global step 7580: loss = 0.2907 (12.10 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7583.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7587.
+INFO:tensorflow:global step 7590: loss = 0.3900 (12.67 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7591.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7596.
+INFO:tensorflow:global step 7600: loss = 0.2548 (12.19 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7600.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7604.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7609.
+INFO:tensorflow:global step 7610: loss = 0.2428 (12.77 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7613.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7617.
+INFO:tensorflow:global step 7620: loss = 0.2611 (12.31 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7622.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7626.
+INFO:tensorflow:global step 7630: loss = 0.3740 (13.25 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7630.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7634.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7639.
+INFO:tensorflow:global step 7640: loss = 0.2878 (14.24 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7643.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7647.
+INFO:tensorflow:global step 7650: loss = 0.3606 (13.06 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7651.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7655.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 7660: loss = 0.2831 (16.92 sec/step)
+INFO:tensorflow:Recording summary at step 7660.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7664.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7668.
+INFO:tensorflow:global step 7670: loss = 0.2482 (13.59 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7672.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7676.
+INFO:tensorflow:global step 7680: loss = 0.5559 (12.40 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7680.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7685.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7689.
+INFO:tensorflow:global step 7690: loss = 0.2477 (19.03 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7693.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7697.
+INFO:tensorflow:global step 7700: loss = 0.2499 (13.03 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7702.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7706.
+INFO:tensorflow:global step 7710: loss = 0.2729 (12.22 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7710.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7714.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7718.
+INFO:tensorflow:global step 7720: loss = 0.3803 (12.13 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7723.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7727.
+INFO:tensorflow:global step 7730: loss = 0.2580 (12.27 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7731.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7735.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7739.
+INFO:tensorflow:global step 7740: loss = 0.2584 (18.68 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7744.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7748.
+INFO:tensorflow:global step 7750: loss = 0.2718 (12.25 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7752.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7756.
+INFO:tensorflow:global step 7760: loss = 0.2568 (13.11 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7760.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7765.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7769.
+INFO:tensorflow:global step 7770: loss = 0.4148 (19.39 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7773.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7777.
+INFO:tensorflow:global step 7780: loss = 0.2399 (13.48 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7781.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7785.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 7790: loss = 0.2475 (17.53 sec/step)
+INFO:tensorflow:Recording summary at step 7790.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7794.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7798.
+INFO:tensorflow:global step 7800: loss = 0.2443 (12.27 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7802.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7806.
+INFO:tensorflow:global step 7810: loss = 0.3323 (13.65 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7811.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7815.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7819.
+INFO:tensorflow:global step 7820: loss = 0.2437 (19.07 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7823.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7827.
+INFO:tensorflow:global step 7830: loss = 0.2399 (13.18 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7832.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7836.
+INFO:tensorflow:global step 7840: loss = 0.4641 (13.10 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7840.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7844.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7848.
+INFO:tensorflow:global step 7850: loss = 0.3042 (13.35 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7853.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7857.
+INFO:tensorflow:global step 7860: loss = 0.2777 (13.24 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7861.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7865.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7869.
+INFO:tensorflow:global step 7870: loss = 0.2473 (19.48 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7874.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7878.
+INFO:tensorflow:global step 7880: loss = 0.2621 (12.35 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7882.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7886.
+INFO:tensorflow:global step 7890: loss = 0.2419 (12.72 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7891.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7895.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7899.
+INFO:tensorflow:global step 7900: loss = 0.2654 (19.17 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7903.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7908.
+INFO:tensorflow:global step 7910: loss = 0.2534 (12.11 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7912.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7916.
+INFO:tensorflow:global step 7920: loss = 0.2471 (11.90 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7921.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7925.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7929.
+INFO:tensorflow:global step 7930: loss = 0.2541 (18.07 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7934.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7938.
+INFO:tensorflow:global step 7940: loss = 0.2393 (12.93 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7942.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7947.
+INFO:tensorflow:global step 7950: loss = 0.2568 (12.69 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7951.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7955.
+INFO:tensorflow:global step 7960: loss = 0.2862 (12.03 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7960.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7964.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7968.
+INFO:tensorflow:global step 7970: loss = 0.2689 (13.09 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7973.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7977.
+INFO:tensorflow:global step 7980: loss = 0.2400 (12.20 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7981.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7986.
+INFO:tensorflow:global step 7990: loss = 0.2815 (12.12 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7990.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7995.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 7999.
+INFO:tensorflow:global step 8000: loss = 0.2416 (19.35 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8003.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8008.
+INFO:tensorflow:global step 8010: loss = 0.2511 (11.90 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8012.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8016.
+INFO:tensorflow:global step 8020: loss = 0.2483 (12.82 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8021.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8025.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8029.
+INFO:tensorflow:global step 8030: loss = 0.2553 (18.18 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8034.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8038.
+INFO:tensorflow:global step 8040: loss = 0.2867 (12.82 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8042.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8047.
+INFO:tensorflow:global step 8050: loss = 0.2717 (12.06 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8051.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8055.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 8060: loss = 0.3248 (16.51 sec/step)
+INFO:tensorflow:Recording summary at step 8060.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8064.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8068.
+INFO:tensorflow:global step 8070: loss = 0.3823 (11.96 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8072.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8077.
+INFO:tensorflow:global step 8080: loss = 0.2471 (12.79 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8081.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8085.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 8090: loss = 0.2479 (15.24 sec/step)
+INFO:tensorflow:Recording summary at step 8090.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8094.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8098.
+INFO:tensorflow:global step 8100: loss = 0.2738 (12.44 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8102.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8107.
+INFO:tensorflow:global step 8110: loss = 0.2414 (12.51 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8111.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8115.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8119.
+INFO:tensorflow:global step 8120: loss = 0.4814 (18.41 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8124.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8128.
+INFO:tensorflow:global step 8130: loss = 0.3463 (12.87 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8132.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8136.
+INFO:tensorflow:global step 8140: loss = 0.2437 (13.07 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8141.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8145.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8149.
+INFO:tensorflow:global step 8150: loss = 0.2455 (18.65 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8153.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8158.
+INFO:tensorflow:global step 8160: loss = 0.2499 (13.06 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8162.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8166.
+INFO:tensorflow:global step 8170: loss = 0.2516 (12.62 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8170.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8174.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8179.
+INFO:tensorflow:global step 8180: loss = 0.2418 (18.57 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8183.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8187.
+INFO:tensorflow:global step 8190: loss = 0.2632 (13.22 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8191.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8195.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 8200: loss = 0.2638 (17.64 sec/step)
+INFO:tensorflow:Recording summary at step 8200.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8204.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8208.
+INFO:tensorflow:global step 8210: loss = 0.2406 (12.70 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8212.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8216.
+INFO:tensorflow:global step 8220: loss = 0.2644 (12.02 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8221.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8225.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 8230: loss = 0.2461 (14.79 sec/step)
+INFO:tensorflow:Recording summary at step 8230.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8234.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8239.
+INFO:tensorflow:global step 8240: loss = 0.2445 (13.95 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8243.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8247.
+INFO:tensorflow:global step 8250: loss = 0.2591 (12.68 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8252.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8256.
+INFO:tensorflow:global step 8260: loss = 0.2847 (11.89 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8260.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8265.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8269.
+INFO:tensorflow:global step 8270: loss = 0.2690 (17.32 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8274.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8278.
+INFO:tensorflow:global step 8280: loss = 0.2848 (12.65 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8282.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8287.
+INFO:tensorflow:global step 8290: loss = 0.2443 (11.88 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8291.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8296.
+INFO:tensorflow:global step 8300: loss = 0.3106 (12.73 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8300.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8304.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8309.
+INFO:tensorflow:global step 8310: loss = 0.2386 (18.42 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8313.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8318.
+INFO:tensorflow:global step 8320: loss = 0.4475 (12.79 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8322.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8326.
+INFO:tensorflow:global step 8330: loss = 0.2530 (12.72 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8331.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8335.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8339.
+INFO:tensorflow:global step 8340: loss = 0.2501 (16.95 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8344.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8348.
+INFO:tensorflow:global step 8350: loss = 0.2445 (12.68 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8352.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8357.
+INFO:tensorflow:global step 8360: loss = 0.2542 (12.33 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8361.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8365.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 8370: loss = 0.2957 (17.29 sec/step)
+INFO:tensorflow:Recording summary at step 8370.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8374.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8378.
+INFO:tensorflow:global step 8380: loss = 0.2424 (12.89 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8382.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8387.
+INFO:tensorflow:global step 8390: loss = 0.3368 (12.83 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8391.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8396.
+INFO:tensorflow:global step 8400: loss = 0.2975 (13.17 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8400.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8404.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8409.
+INFO:tensorflow:global step 8410: loss = 0.2929 (18.25 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8413.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8417.
+INFO:tensorflow:global step 8420: loss = 0.3639 (12.91 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8422.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8426.
+INFO:tensorflow:global step 8430: loss = 0.2816 (12.70 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8430.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8435.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8439.
+INFO:tensorflow:global step 8440: loss = 0.2970 (17.25 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8443.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8448.
+INFO:tensorflow:global step 8450: loss = 0.3512 (12.29 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8452.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8456.
+INFO:tensorflow:global step 8460: loss = 0.2582 (13.00 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8461.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8465.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 8470: loss = 0.2551 (15.55 sec/step)
+INFO:tensorflow:Recording summary at step 8470.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8474.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8478.
+INFO:tensorflow:global step 8480: loss = 0.2480 (12.75 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8483.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8487.
+INFO:tensorflow:global step 8490: loss = 0.2613 (13.00 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8491.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8495.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 8500: loss = 0.2462 (16.01 sec/step)
+INFO:tensorflow:Recording summary at step 8500.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8504.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8508.
+INFO:tensorflow:global step 8510: loss = 0.2494 (12.39 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8513.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8517.
+INFO:tensorflow:global step 8520: loss = 0.2456 (12.53 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8521.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8525.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 8530: loss = 0.2882 (13.32 sec/step)
+INFO:tensorflow:Recording summary at step 8530.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8534.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8538.
+INFO:tensorflow:global step 8540: loss = 0.2418 (13.35 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8543.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8547.
+INFO:tensorflow:global step 8550: loss = 0.2460 (12.97 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8551.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8555.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8559.
+INFO:tensorflow:global step 8560: loss = 0.2680 (19.08 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8564.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8568.
+INFO:tensorflow:global step 8570: loss = 0.2474 (13.05 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8572.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8576.
+INFO:tensorflow:global step 8580: loss = 0.2454 (13.24 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8581.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8585.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8589.
+INFO:tensorflow:global step 8590: loss = 0.2403 (18.94 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8593.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8597.
+INFO:tensorflow:global step 8600: loss = 0.3241 (13.25 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8601.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8606.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 8610: loss = 0.2734 (13.53 sec/step)
+INFO:tensorflow:Recording summary at step 8610.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8614.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8618.
+INFO:tensorflow:global step 8620: loss = 0.2519 (12.67 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8622.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8627.
+INFO:tensorflow:global step 8630: loss = 0.2405 (13.16 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8631.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8635.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8639.
+INFO:tensorflow:global step 8640: loss = 0.3579 (18.75 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8643.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8648.
+INFO:tensorflow:global step 8650: loss = 0.2632 (13.11 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8652.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8656.
+INFO:tensorflow:global step 8660: loss = 0.2511 (12.24 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8660.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8664.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8669.
+INFO:tensorflow:global step 8670: loss = 0.2473 (18.42 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8673.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8677.
+INFO:tensorflow:global step 8680: loss = 0.2799 (13.27 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8681.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8686.
+INFO:tensorflow:global step 8690: loss = 0.2512 (12.99 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8690.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8694.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8698.
+INFO:tensorflow:global step 8700: loss = 0.2578 (13.54 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8702.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8706.
+INFO:tensorflow:global step 8710: loss = 0.2424 (12.84 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8711.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8715.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8719.
+INFO:tensorflow:global step 8720: loss = 0.2495 (19.64 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8723.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8727.
+INFO:tensorflow:global step 8730: loss = 0.2757 (13.63 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8731.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8736.
+INFO:tensorflow:global step 8740: loss = 0.2472 (12.45 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8740.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8744.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8748.
+INFO:tensorflow:global step 8750: loss = 0.2419 (12.55 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8753.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8757.
+INFO:tensorflow:global step 8760: loss = 0.3412 (13.05 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8761.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8765.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8769.
+INFO:tensorflow:global step 8770: loss = 0.3718 (18.21 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8774.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8778.
+INFO:tensorflow:global step 8780: loss = 0.3865 (13.12 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8782.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8786.
+INFO:tensorflow:global step 8790: loss = 0.2446 (13.11 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8790.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8794.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8799.
+INFO:tensorflow:global step 8800: loss = 0.4736 (13.36 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8803.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8807.
+INFO:tensorflow:global step 8810: loss = 0.2683 (13.13 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8811.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8815.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8819.
+INFO:tensorflow:global step 8820: loss = 0.2469 (18.81 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8824.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8828.
+INFO:tensorflow:global step 8830: loss = 0.2499 (13.20 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8832.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8837.
+INFO:tensorflow:global step 8840: loss = 0.2658 (12.80 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8841.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8845.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 8850: loss = 0.2481 (15.75 sec/step)
+INFO:tensorflow:Recording summary at step 8850.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8854.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8858.
+INFO:tensorflow:global step 8860: loss = 0.2422 (12.27 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8863.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8867.
+INFO:tensorflow:global step 8870: loss = 0.2971 (12.81 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8871.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8876.
+INFO:tensorflow:global step 8880: loss = 0.2414 (11.78 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8880.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8884.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8889.
+INFO:tensorflow:global step 8890: loss = 0.2466 (18.36 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8893.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8897.
+INFO:tensorflow:global step 8900: loss = 0.2495 (13.33 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8902.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8906.
+INFO:tensorflow:global step 8910: loss = 0.3362 (13.29 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8910.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8915.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8919.
+INFO:tensorflow:global step 8920: loss = 0.2509 (18.16 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8924.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8928.
+INFO:tensorflow:global step 8930: loss = 0.2464 (12.81 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8932.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8936.
+INFO:tensorflow:global step 8940: loss = 0.2414 (12.81 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8941.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8945.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8949.
+INFO:tensorflow:global step 8950: loss = 0.2529 (18.34 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8954.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8958.
+INFO:tensorflow:global step 8960: loss = 0.2387 (12.93 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8962.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8967.
+INFO:tensorflow:global step 8970: loss = 0.2666 (12.24 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8971.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8975.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 8980: loss = 0.2595 (11.95 sec/step)
+INFO:tensorflow:Recording summary at step 8980.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8984.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8988.
+INFO:tensorflow:global step 8990: loss = 0.2645 (12.86 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8993.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 8997.
+INFO:tensorflow:global step 9000: loss = 0.2447 (12.17 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9001.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9006.
+INFO:tensorflow:global step 9010: loss = 0.2430 (12.19 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9010.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9014.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9018.
+INFO:tensorflow:global step 9020: loss = 0.2472 (12.45 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9023.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9027.
+INFO:tensorflow:global step 9030: loss = 0.2694 (12.95 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9031.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9035.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 9040: loss = 0.2473 (18.28 sec/step)
+INFO:tensorflow:Recording summary at step 9040.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9044.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9048.
+INFO:tensorflow:global step 9050: loss = 0.2454 (13.04 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9052.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9056.
+INFO:tensorflow:global step 9060: loss = 0.2511 (12.77 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9061.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9065.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9069.
+INFO:tensorflow:global step 9070: loss = 0.2484 (18.59 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9073.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9077.
+INFO:tensorflow:global step 9080: loss = 0.3374 (12.74 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9081.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9086.
+INFO:tensorflow:global step 9090: loss = 0.3592 (12.50 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9090.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9094.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9098.
+INFO:tensorflow:global step 9100: loss = 0.2525 (13.30 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9102.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9106.
+INFO:tensorflow:global step 9110: loss = 0.2736 (13.25 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9111.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9115.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9119.
+INFO:tensorflow:global step 9120: loss = 0.2592 (18.18 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9123.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9128.
+INFO:tensorflow:global step 9130: loss = 0.2431 (12.22 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9132.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9137.
+INFO:tensorflow:global step 9140: loss = 0.3439 (12.87 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9141.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9145.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 9150: loss = 0.2428 (16.44 sec/step)
+INFO:tensorflow:Recording summary at step 9150.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9154.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9158.
+INFO:tensorflow:global step 9160: loss = 0.3360 (13.09 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9163.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9167.
+INFO:tensorflow:global step 9170: loss = 0.3447 (11.84 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9171.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9176.
+INFO:tensorflow:global step 9180: loss = 0.2640 (12.57 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9180.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9184.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9189.
+INFO:tensorflow:global step 9190: loss = 0.2697 (18.57 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9193.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9197.
+INFO:tensorflow:global step 9200: loss = 0.2403 (13.03 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9202.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9206.
+INFO:tensorflow:global step 9210: loss = 0.2459 (12.88 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9210.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9214.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9219.
+INFO:tensorflow:global step 9220: loss = 0.2673 (17.75 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9223.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9228.
+INFO:tensorflow:global step 9230: loss = 0.2398 (12.94 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9232.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9236.
+INFO:tensorflow:global step 9240: loss = 0.2404 (12.75 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9240.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9245.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9249.
+INFO:tensorflow:global step 9250: loss = 0.2401 (18.26 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9253.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9257.
+INFO:tensorflow:global step 9260: loss = 0.2447 (13.10 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9262.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9266.
+INFO:tensorflow:global step 9270: loss = 0.2654 (12.35 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9270.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9275.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9279.
+INFO:tensorflow:global step 9280: loss = 0.2394 (18.38 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9283.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9287.
+INFO:tensorflow:global step 9290: loss = 0.2410 (12.90 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9292.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9296.
+INFO:tensorflow:global step 9300: loss = 0.2444 (13.33 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9300.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9304.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9308.
+INFO:tensorflow:global step 9310: loss = 0.2668 (13.08 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9313.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9317.
+INFO:tensorflow:global step 9320: loss = 0.2394 (13.04 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9321.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9325.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9329.
+INFO:tensorflow:global step 9330: loss = 0.2611 (18.24 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9334.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9338.
+INFO:tensorflow:global step 9340: loss = 0.2394 (12.56 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9342.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9346.
+INFO:tensorflow:global step 9350: loss = 0.2568 (12.17 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9351.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9355.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9359.
+INFO:tensorflow:global step 9360: loss = 0.2819 (18.18 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9363.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9367.
+INFO:tensorflow:global step 9370: loss = 0.2437 (13.16 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9372.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9376.
+INFO:tensorflow:global step 9380: loss = 0.2612 (13.45 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9380.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9384.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9388.
+INFO:tensorflow:global step 9390: loss = 0.2411 (12.24 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9393.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9397.
+INFO:tensorflow:global step 9400: loss = 0.2458 (13.07 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9401.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9405.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9409.
+INFO:tensorflow:global step 9410: loss = 0.2418 (19.06 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9413.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9417.
+INFO:tensorflow:global step 9420: loss = 0.2596 (13.20 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9422.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9426.
+INFO:tensorflow:global step 9430: loss = 0.2485 (13.14 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9430.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9434.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9438.
+INFO:tensorflow:global step 9440: loss = 0.3442 (12.58 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9442.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9447.
+INFO:tensorflow:global step 9450: loss = 0.2616 (11.75 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9451.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9456.
+INFO:tensorflow:global step 9460: loss = 0.2394 (12.89 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9460.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9464.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9469.
+INFO:tensorflow:global step 9470: loss = 0.2659 (14.13 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9473.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9477.
+INFO:tensorflow:global step 9480: loss = 0.2481 (12.71 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9482.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9486.
+INFO:tensorflow:global step 9490: loss = 0.2405 (12.70 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9490.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9495.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9499.
+INFO:tensorflow:global step 9500: loss = 0.2608 (17.73 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9504.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9508.
+INFO:tensorflow:global step 9510: loss = 0.2417 (13.32 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9512.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9517.
+INFO:tensorflow:global step 9520: loss = 0.2469 (12.24 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9521.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9526.
+INFO:tensorflow:global step 9530: loss = 0.2439 (11.81 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9530.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9534.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9539.
+INFO:tensorflow:global step 9540: loss = 0.2668 (16.31 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9543.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9547.
+INFO:tensorflow:global step 9550: loss = 0.2486 (12.73 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9552.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9556.
+INFO:tensorflow:global step 9560: loss = 0.2460 (12.11 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9560.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9565.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9569.
+INFO:tensorflow:global step 9570: loss = 0.2383 (18.31 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9573.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9578.
+INFO:tensorflow:global step 9580: loss = 0.2564 (11.75 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9582.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9586.
+INFO:tensorflow:global step 9590: loss = 0.2633 (12.71 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9591.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9595.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 9600: loss = 0.2960 (13.02 sec/step)
+INFO:tensorflow:Recording summary at step 9600.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9604.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9608.
+INFO:tensorflow:global step 9610: loss = 0.2687 (12.93 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9613.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9617.
+INFO:tensorflow:global step 9620: loss = 0.2637 (13.32 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9621.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9625.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9629.
+INFO:tensorflow:global step 9630: loss = 0.2400 (18.04 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9633.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9638.
+INFO:tensorflow:global step 9640: loss = 0.2484 (12.05 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9642.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9646.
+INFO:tensorflow:global step 9650: loss = 0.3268 (11.96 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9651.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9655.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9659.
+INFO:tensorflow:global step 9660: loss = 0.2721 (18.30 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9664.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9668.
+INFO:tensorflow:global step 9670: loss = 0.2816 (11.80 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9673.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9677.
+INFO:tensorflow:global step 9680: loss = 0.2444 (12.71 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9681.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9686.
+INFO:tensorflow:global step 9690: loss = 0.2519 (12.64 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9690.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9695.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9699.
+INFO:tensorflow:global step 9700: loss = 0.2629 (19.13 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9703.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9707.
+INFO:tensorflow:global step 9710: loss = 0.2399 (14.03 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9711.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9716.
+INFO:tensorflow:global step 9720: loss = 0.3799 (12.55 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9720.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9725.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9729.
+INFO:tensorflow:global step 9730: loss = 0.2975 (17.05 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9734.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9738.
+INFO:tensorflow:global step 9740: loss = 0.2522 (11.67 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9743.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9748.
+INFO:tensorflow:global step 9750: loss = 0.2493 (11.68 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9752.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9757.
+INFO:tensorflow:global step 9760: loss = 0.2450 (11.88 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9762.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9766.
+INFO:tensorflow:global step 9770: loss = 0.2397 (12.56 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9771.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9775.
+INFO:tensorflow:global step 9780: loss = 0.2484 (12.06 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9780.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9785.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9789.
+INFO:tensorflow:global step 9790: loss = 0.2477 (16.88 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9794.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9798.
+INFO:tensorflow:global step 9800: loss = 0.2396 (11.58 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9803.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9808.
+INFO:tensorflow:global step 9810: loss = 0.2410 (11.36 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9812.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9816.
+INFO:tensorflow:global step 9820: loss = 0.2631 (13.21 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9820.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9825.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9829.
+INFO:tensorflow:global step 9830: loss = 0.2435 (18.95 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9833.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9837.
+INFO:tensorflow:global step 9840: loss = 0.2394 (13.49 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9841.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9845.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 9850: loss = 0.2487 (16.94 sec/step)
+INFO:tensorflow:Recording summary at step 9850.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9854.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9858.
+INFO:tensorflow:global step 9860: loss = 0.2814 (13.46 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9862.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9866.
+INFO:tensorflow:global step 9870: loss = 0.2419 (12.66 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9870.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9874.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9879.
+INFO:tensorflow:global step 9880: loss = 0.2467 (16.32 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9883.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9887.
+INFO:tensorflow:global step 9890: loss = 0.2420 (13.46 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9891.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9895.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:global step 9900: loss = 0.2464 (17.80 sec/step)
+INFO:tensorflow:Recording summary at step 9900.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9904.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9908.
+INFO:tensorflow:global step 9910: loss = 0.3086 (12.42 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9912.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9916.
+INFO:tensorflow:global step 9920: loss = 0.2445 (12.61 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9920.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9924.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9929.
+INFO:tensorflow:global step 9930: loss = 0.2470 (15.86 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9933.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9937.
+INFO:tensorflow:global step 9940: loss = 0.2591 (13.28 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9941.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9945.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9949.
+INFO:tensorflow:global step 9950: loss = 0.2417 (20.10 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9953.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9957.
+INFO:tensorflow:global step 9960: loss = 0.2710 (13.17 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9961.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9965.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9969.
+INFO:tensorflow:global step 9970: loss = 0.2461 (18.90 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9973.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9978.
+INFO:tensorflow:global step 9980: loss = 0.2390 (11.79 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9982.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9987.
+INFO:tensorflow:global step 9990: loss = 0.2424 (12.23 sec/step)
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9991.
+INFO:tensorflow:Saving checkpoint to path /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt
+INFO:tensorflow:Recording summary at step 9996.
+INFO:tensorflow:global step 10000: loss = 0.3057 (12.78 sec/step)
+INFO:tensorflow:Stopping Training.
+INFO:tensorflow:Finished training! Saving model to disk.
+<tensorflow.python.platform.flags._FlagValues object at 0x7f69695cf0d0>
+nickf train /home/nick/datasets/nickf
+INFO:tensorflow:Scale of 0 disables regularizer.
+WARNING:tensorflow:From eval_image_classifier.py:157: streaming_recall_at_k (from tensorflow.contrib.metrics.python.ops.metric_ops) is deprecated and will be removed after 2016-11-08.
+Instructions for updating:
+Please use `streaming_sparse_recall_at_k`, and reshape labels from [batch_size] to [batch_size, 1].
+INFO:tensorflow:Evaluating /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt-10000
+INFO:tensorflow:Starting evaluation at 2017-08-25-02:15:23
+INFO:tensorflow:Restoring parameters from /old_home/nick/tmp/nick_family-models/inception_v3/all/model.ckpt-10000
+INFO:tensorflow:Evaluation [1/1]
+2017-08-25 10:15:33.939817: I tensorflow/core/kernels/logging_ops.cc:79] eval/Accuracy[0.98]
+2017-08-25 10:15:33.939817: I tensorflow/core/kernels/logging_ops.cc:79] eval/Recall_5[1]
+INFO:tensorflow:Finished evaluation at 2017-08-25-02:15:34
