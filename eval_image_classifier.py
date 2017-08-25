@@ -112,7 +112,7 @@ def main(_):
         shuffle=False,
         common_queue_capacity=2 * FLAGS.batch_size,
         common_queue_min=FLAGS.batch_size)
-    [image, label] = provider.get(['image', 'label'])
+    [image, label, filename] = provider.get(['image', 'label', 'filename'])
     label -= FLAGS.labels_offset
 
     #####################################
@@ -127,8 +127,8 @@ def main(_):
 
     image = image_preprocessing_fn(image, eval_image_size, eval_image_size)
 
-    images, labels = tf.train.batch(
-        [image, label],
+    images, labels, filenames = tf.train.batch(
+        [image, label, filename],
         batch_size=FLAGS.batch_size,
         num_threads=FLAGS.num_preprocessing_threads,
         capacity=5 * FLAGS.batch_size)
@@ -149,6 +149,9 @@ def main(_):
 
     predictions = tf.argmax(logits, 1)
     labels = tf.squeeze(labels)
+
+    mislabeled = tf.not_equal(predictions, labels)
+    mislabeled_filenames = tf.boolean_mask(filenames, mislabeled)
 
     # Define the metrics:
     names_to_values, names_to_updates = slim.metrics.aggregate_metric_map({
@@ -178,12 +181,16 @@ def main(_):
 
     tf.logging.info('Evaluating %s' % checkpoint_path)
 
+    eval_op = mislabeled_filenames
+    eval_op = tf.Print(eval_op, [mislabeled_filenames], message="This is the wrong classified image file name: ")
+
     slim.evaluation.evaluate_once(
         master=FLAGS.master,
         checkpoint_path=checkpoint_path,
         logdir=FLAGS.eval_dir,
         num_evals=num_batches,
         eval_op=list(names_to_updates.values()),
+        #eval_op=eval_op,
         variables_to_restore=variables_to_restore)
 
 
