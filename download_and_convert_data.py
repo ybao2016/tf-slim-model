@@ -33,6 +33,9 @@ $ python download_and_convert_data.py \
     --dataset_name=nickf \
     --dataset_dir=/
 
+$ python download_and_convert_data.py \
+    --dataset_name=celeb \
+    --dataset_dir=/
 ```
 """
 from __future__ import absolute_import
@@ -45,6 +48,7 @@ from datasets import download_and_convert_cifar10
 from datasets import download_and_convert_flowers
 from datasets import download_and_convert_mnist
 from datasets import download_and_convert_nickf
+from datasets import download_and_convert_celeb
 
 FLAGS = tf.app.flags.FLAGS
 
@@ -73,7 +77,8 @@ def main(_):
     download_and_convert_mnist.run(FLAGS.dataset_dir)
   elif FLAGS.dataset_name == 'nickf':
     download_and_convert_nickf.run(FLAGS.dataset_dir)
-
+  elif FLAGS.dataset_name == 'celeb':
+    download_and_convert_celeb.run(FLAGS.dataset_dir)
   else:
     raise ValueError(
         'dataset_name [%s] was not recognized.' % FLAGS.dataset_dir)

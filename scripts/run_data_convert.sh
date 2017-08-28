@@ -1,0 +1,1 @@
+python /home/nick/tfp27/models/slim/download_and_convert_data.py --dataset_name=nickf --dataset_dir=/home/nick/datasets/nickf4

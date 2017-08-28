@@ -503,6 +503,7 @@ def main(_):
           FLAGS.moving_average_decay, global_step)
     else:
       moving_average_variables, variable_averages = None, None
+      moving_average_variables, variable_averages = None, None
 
     #########################################
     # Configure the optimization procedure. #
