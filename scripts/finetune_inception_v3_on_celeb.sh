@@ -72,7 +72,7 @@ python eval_image_classifier.py \
 t3_first_eval_end="$(date +%s)"
 
 # Fine-tune all the new layers for ${ALL_LAYER_STEPS} steps.
-ALL_LAYER_STEPS=2500
+ALL_LAYER_STEPS=3380
 python train_image_classifier.py \
   --train_dir=${TRAIN_DIR}/all \
   --dataset_name=celeb \
@@ -81,7 +81,7 @@ python train_image_classifier.py \
   --model_name=inception_v3 \
   --checkpoint_path=${TRAIN_DIR} \
   --max_number_of_steps=${ALL_LAYER_STEPS} \
-  --batch_size=32 \
+  --batch_size=64 \
   --learning_rate=0.0001 \
   --learning_rate_decay_type=fixed \
   --save_interval_secs=600 \

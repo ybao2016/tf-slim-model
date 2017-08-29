@@ -31,7 +31,8 @@ slim = tf.contrib.slim
 
 _FILE_PATTERN = 'celebs_%s_*.tfrecord'
 
-SPLITS_TO_SIZES = {'train': 25, 'validation': 7}
+#SPLITS_TO_SIZES = {'train': 25, 'validation': 7} #nickf
+SPLITS_TO_SIZES = {'train': 4621, 'validation': 2000}
 
 _NUM_CLASSES = 84
 
