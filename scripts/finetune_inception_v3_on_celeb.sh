@@ -53,7 +53,7 @@ python train_image_classifier.py \
   --learning_rate=0.01 \
   --learning_rate_decay_type=fixed \
   --save_interval_secs=600 \
-  --save_summaries_secs=600 \
+  --save_summaries_secs=1600 \
   --log_every_n_steps=100 \
   --optimizer=rmsprop \
   --weight_decay=0.00004
@@ -72,7 +72,7 @@ python eval_image_classifier.py \
 t3_first_eval_end="$(date +%s)"
 
 # Fine-tune all the new layers for ${ALL_LAYER_STEPS} steps.
-ALL_LAYER_STEPS=3380
+ALL_LAYER_STEPS=6380
 python train_image_classifier.py \
   --train_dir=${TRAIN_DIR}/all \
   --dataset_name=celeb \
@@ -85,7 +85,7 @@ python train_image_classifier.py \
   --learning_rate=0.0001 \
   --learning_rate_decay_type=fixed \
   --save_interval_secs=600 \
-  --save_summaries_secs=600 \
+  --save_summaries_secs=1600 \
   --log_every_n_steps=100 \
   --optimizer=rmsprop \
   --weight_decay=0.00004
